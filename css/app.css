@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.griglia{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+.griglia > * {
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
